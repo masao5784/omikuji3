@@ -35,16 +35,9 @@ window.addEventListener('DOMContentLoaded',function() {
         luckyNumber = 3;
       }
       result = omikujiResult[luckyNumber];
-     if (result = "大吉") {
-      $("#omikujiResult").html("<div class= 'omikujiResultInner0'>" + result + "</div>");
-    }
-      else if(result = "中吉"){
-        $("#omikujiResult").html("<div class= 'omikujiResultInner1'>" + result + "</div>");
-      }else if(result = "小吉"){
-        $("#omikujiResult").html("<div class= 'omikujiResultInner2'>" + result + "</div>");
-      }else{
-        $("#omikujiResult").html("<div class= 'omikujiResultInner3'>" + result + "</div>");
-      }
+   
+      $("#omikujiResult").html("<div class= 'omikujiResultInner'>" + result + "</div>");
+     
     } ,5000);
       
   

@@ -2,31 +2,8 @@ body{
   text-align: center;
 }
 
-.omikujiResultInner0{
-  padding: auto;
-  margin: auto;
-  line-height: 300px;
-  font-size: 100px;
-  font-weight: bold;
-  background-image: url("807fc8a0d2236f3e6a01796023350895_t.jpeg");
-}
-.omikujiResultInner1{
-  padding: auto;
-  margin: auto;
-  line-height: 300px;
-  font-size: 100px;
-  font-weight: bold;
-  background-image: url("c07c5a109bd13acd5082d5b278102d17_t.jpeg");
-}
-.omikujiResultInner2{
-  padding: auto;
-  margin: auto;
-  line-height: 300px;
-  font-size: 100px;
-  font-weight: bold;
-  background-image: url("syoukichi.jpg");
-}
-.omikujiResultInner3{
+
+.omikujiResultInner{
   width: 300px;
   height: 300px;
   padding: auto;
