@@ -21,24 +21,18 @@ window.addEventListener('DOMContentLoaded',function() {
     //結果が表示される
     setTimeout(function(){
     var luckyNumber = null;
-    
       var x = Math.random()*100;
       if(x>=0 & x<0.01){
         luckyNumber = 0;
-        
       }
       else if(x>=0.01 & x<1){
         luckyNumber = 1;
-        
       }
-
       else if(x>=1 & x<10){
         luckyNumber = 2;
-        
       }
       else{
         luckyNumber = 3;
-       
       }
       result = omikujiResult[luckyNumber];
      if (result = "大吉") {

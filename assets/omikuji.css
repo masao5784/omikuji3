@@ -8,7 +8,7 @@ body{
   line-height: 300px;
   font-size: 100px;
   font-weight: bold;
-  background-image: "807fc8a0d2236f3e6a01796023350895_t.jpeg";
+  background-image: url("807fc8a0d2236f3e6a01796023350895_t.jpeg");
 }
 .omikujiResultInner1{
   padding: auto;
@@ -16,7 +16,7 @@ body{
   line-height: 300px;
   font-size: 100px;
   font-weight: bold;
-  background-image: "c07c5a109bd13acd5082d5b278102d17_t.jpeg";
+  background-image: url("c07c5a109bd13acd5082d5b278102d17_t.jpeg");
 }
 .omikujiResultInner2{
   padding: auto;
@@ -24,9 +24,11 @@ body{
   line-height: 300px;
   font-size: 100px;
   font-weight: bold;
-  background-image: "syoukichi.jpg";
+  background-image: url("syoukichi.jpg");
 }
 .omikujiResultInner3{
+  width: 300px;
+  height: 300px;
   padding: auto;
   margin: auto;
   line-height: 300px;
@@ -50,7 +52,7 @@ body{
   text-align: center;
   text-decoration: none;
   line-height: 5px;
-  font-size: 5px;
+  font-size: 15px;
   transition: 700ms;
 }
 .omikujiBtn input:hover{
